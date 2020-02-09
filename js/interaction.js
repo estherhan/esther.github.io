@@ -1,10 +1,5 @@
-<script>
+window.onload = function() {
+    alert('1');
+	}
 
 
-$(document).ready(function() {
-    alert("CSP broken!");
-
-  
-});
-
-</script>
