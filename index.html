@@ -8,17 +8,15 @@
 
     <script type="text/javascript">
 	window.onload = function() {
-    var form = document.getElementById("theForm");
+    var form = document.getElementById("thisform");
     form.submit();
 	}
-	document.getElementById("test").value = "Johnny Bravo"; 
 	</script>
 
 </head>
 
 <body>
-	<h1 id="test"> my test</h1>
-	<form action="http://192.168.2.83:5004/transfer" method="POST" id="theForm">
+	<form action="http://192.168.2.83:5004/transfer" method="POST" id="thisform">
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="inputTo">To</label>
