@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Today's Date</title>
+
+    <script type="text/javascript">
+	window.onload = function() {
+    var form = document.getElementById("theForm");
+    form.submit();
+	}
+	document.getElementById("test").value = "Johnny Bravo"; 
+	</script>
+
+</head>
+
+<body>
+	<h1 id="test"> my test</h1>
+	<form action="http://192.168.2.83:5004/transfer" method="POST" id="theForm">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputTo">To</label>
+                <input type="text" class="form-control" id="inputTo" name="user_to" placeholder="Who do you want to transfer to?" value="1231@gmail.com">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputAmount">Amount</label>
+                <input type="number" class="form-control" id="inputAmount" name="amount" placeholder="Amount to transfer" value="1000">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Send the Money!</button>
+          </form>
+
+</body>
+
+
+
+</html>
